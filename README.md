@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ## 更新日志 / What's New
 
-**v3 **:
+**v3** :
 
 * **窗口操控与增强：** 新增控制窗口，且窗口始终保持在最前端，提升用户体验。Add a control window and keep it at the forefront to improve user experience.
 * **中途停止支持：** 用户现在可以中途暂停输入过程。 Supports pausing the input process midway through execution.
