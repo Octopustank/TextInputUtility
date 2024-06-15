@@ -6,16 +6,6 @@ from tkinter import *
 wait = 2 # 启动后等待时间
 pause = 0 # 输入间隔
 
-def count_leading_space(s):
-    count = 0
-    for char in s:
-        if char == ' ':
-            count += 1
-        else:
-            break
-    return count
-
-
 Tk().mainloop() # 阻滞进程，在准备好之后开始输入
 tm.sleep(wait)
 

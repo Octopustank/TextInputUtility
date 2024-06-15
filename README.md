@@ -12,19 +12,19 @@ Utilizes Python's `pyautogui` library, specifically the `write` function, to sim
 
 ## 使用 / Usage
 
-1. **准备文本：**文本需放在同目录下的`text.txt`中
+1. **准备文本：** 文本需放在同目录下的`text.txt`中
 
    **Prepare Text:** Place your text in a file named `text.txt` within the same directory as the script.
 
-2. **启动：**启动后，弹出空白窗口。
+2. **启动：** 启动后，弹出空白窗口。
 
    **Launch:** Upon starting the utility, a blank window will appear.
 
-3. **选中输入区域：**关闭窗口后，在设定好的等待时间（代码中`wait`变量的值）内，鼠标选中输入区域
+3. **选中输入区域：** 关闭窗口后，在设定好的等待时间（代码中`wait`变量的值）内，鼠标选中输入区域
 
    **Select Input Field:** After closing the window, within the predefined waiting period (set by the `wait` variable in the code), position your cursor to select the target input field.
 
-4. **自动输入：**随后开始输入
+4. **自动输入：** 随后开始输入
 
    **Commence Input:** The text will then be automatically typed in.
 
@@ -41,7 +41,7 @@ pause = 0	# 输入间隔
 ## 部署 / setup
 
 ```shell
-pip install -r requirements.txImproved handling to address potential auto-complete suggestions in the input area.t
+pip install -r requirements.txt
 ```
 
 ## 更新日志 / What's New
