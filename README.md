@@ -32,6 +32,11 @@ Utilizes Python's `pyautogui` library, specifically the `write` function, to sim
 
    For subsequent rounds of input, simply update the `text.txt` file; no need to restart the application.
 
+> NOTICE：不能输入中文！
+>
+> `pyautogui.write`不支持输入非ASIC II字符。
+> 目前在PC端如果不使用粘贴，输入中文实现较为复杂，目前作者没有好的解决方案。
+
 ## 可设置参数 / Configurable Parameters
 
 ```python
